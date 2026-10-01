@@ -51,9 +51,9 @@
 <body>
 <div class="page">
   <h1>Privacy Policy for Smash Down</h1>
-  <p class="meta">Effective September 26, 2026</p>
+  <p class="meta">Effective October 1, 2026</p>
 
-  <p><strong>Short version: Smash Down keeps your scores on your device and has no accounts of its own. If you choose to sign in to Google Play Games, Google handles your leaderboard data.</strong> Details below.</p>
+  <p><strong>Short version: Smash Down keeps your scores on your device and has no accounts of its own. If you choose to sign in to Google Play Games, Google handles your leaderboard data. Smash Down also uses Firebase Analytics and Crashlytics for anonymous usage statistics and crash reports.</strong> Details below.</p>
 
   <h2>What the app stores</h2>
   <p>Smash Down saves your personal best score, how many rounds you have played, and your sound and vibration settings. This data:</p>
@@ -63,26 +63,34 @@
     <li>is deleted automatically if you uninstall the app</li>
   </ul>
 
-  <h2>Google Play Games leaderboard</h2>
-  <p>Smash Down uses Google Play Games Services for its leaderboard. Signing in is optional, and the game can be played fully without it. If you sign in:</p>
+  <h2>Google Play Games leaderboard and achievements</h2>
+  <p>Smash Down uses Google Play Games Services for its leaderboard and achievements. Signing in is optional, and the game can be played fully without it. If you sign in:</p>
   <ul>
     <li>Google provides the app with your Play Games player ID and display name so your score can appear on the leaderboard.</li>
-    <li>Your scores are sent to Google Play Games Services and shown to other players on the leaderboard, together with your Play Games display name.</li>
+    <li>Your scores and unlocked achievements are sent to Google Play Games Services. Scores are shown to other players on the leaderboard, together with your Play Games display name.</li>
     <li>Google processes this data under its own <a href="https://policies.google.com/privacy">Privacy Policy</a>. You can manage or delete your Play Games profile and data in the Google Play Games app and in your Google account settings.</li>
   </ul>
-  <p>Smash Down does not send your scores, name or player ID to any server of ours. We do not run a server for this app.</p>
+  <p>Smash Down does not send your scores, achievements, name or player ID to any server of ours. We do not run a server for this app.</p>
+
+  <h2>Analytics and crash reports</h2>
+  <p>Smash Down uses Firebase Analytics and Firebase Crashlytics, both Google services. This is separate from your leaderboard sign-in and does not need you to sign in to anything.</p>
+  <ul>
+    <li>Firebase Analytics collects basic usage information, such as which screens are opened and how often the app is used, tied to an anonymous installation identifier rather than your name or Play Games profile.</li>
+    <li>Firebase Crashlytics sends a report when the app crashes, so it can be fixed. A report includes the error itself and basic device information (device model, OS version, app version), not your gameplay or personal files.</li>
+    <li>Google processes this data under its own <a href="https://policies.google.com/privacy">Privacy Policy</a> and Firebase's <a href="https://firebase.google.com/support/privacy">privacy and security terms</a>.</li>
+  </ul>
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Internet</strong>: used only by Google Play Games Services and by Google Play's in-app review dialog.</li>
+    <li><strong>Internet</strong>: used by Google Play Games Services, Firebase Analytics and Crashlytics, and Google Play's in-app review dialog.</li>
     <li><strong>Vibration</strong>: used for the optional haptic feedback in the game. You can turn it off in Settings.</li>
   </ul>
 
   <h2>What the app does not do</h2>
   <ul>
-    <li>No analytics or crash-reporting SDKs</li>
     <li>No advertising SDKs or ad identifiers</li>
     <li>No location, contacts, camera, or microphone access</li>
+    <li>No selling of any data to third parties</li>
   </ul>
   <p>If advertising is ever added in a future version, this page will be updated before that version is released.</p>
 
